@@ -172,5 +172,6 @@ class Bbb {
         $params->publish = "true";
         return $this->get_xml_response('publishRecordings', $params);
     }
+    
 
 }
